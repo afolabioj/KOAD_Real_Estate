@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOAD Real Estate - Your Dream Home Awaits</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>KOAD</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#properties" class="nav-link">Properties</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-secondary">Sign In</button>
+                <button class="btn-primary">Get Started</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Find Your Dream Home with KOAD Real Estate</h1>
+                <p class="hero-subtitle">Discover premium properties in the most desirable locations. From luxury apartments to family homes, we have the perfect property for you.</p>
+                <div class="hero-search">
+                    <div class="search-container">
+                        <div class="search-field">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" placeholder="Enter location, city, or neighborhood">
+                        </div>
+                        <div class="search-field">
+                            <i class="fas fa-home"></i>
+                            <select>
+                                <option>Property Type</option>
+                                <option>Apartment</option>
+                                <option>House</option>
+                                <option>Villa</option>
+                                <option>Commercial</option>
+                            </select>
+                        </div>
+                        <div class="search-field">
+                            <i class="fas fa-dollar-sign"></i>
+                            <select>
+                                <option>Price Range</option>
+                                <option>$0 - $500K</option>
+                                <option>$500K - $1M</option>
+                                <option>$1M - $2M</option>
+                                <option>$2M+</option>
+                            </select>
+                        </div>
+                        <button class="search-btn">
+                            <i class="fas fa-search"></i>
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop&crop=center" alt="Luxury Home" loading="lazy">
+                    <div class="image-overlay">
+                        <div class="property-card">
+                            <div class="property-image">
+                                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=300&h=200&fit=crop&crop=center" alt="Property" loading="lazy">
+                            </div>
+                            <div class="property-info">
+                                <h3>Modern Villa</h3>
+                                <p class="property-location"><i class="fas fa-map-marker-alt"></i> Beverly Hills, CA</p>
+                                <div class="property-features">
+                                    <span><i class="fas fa-bed"></i> 4 Beds</span>
+                                    <span><i class="fas fa-bath"></i> 3 Baths</span>
+                                    <span><i class="fas fa-ruler-combined"></i> 2,500 sqft</span>
+                                </div>
+                                <div class="property-price">$1,250,000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-header">
+                <h2>Why Choose KOAD Real Estate?</h2>
+                <p>We provide exceptional service and expertise to help you find the perfect property</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search-location"></i>
+                    </div>
+                    <h3>Expert Property Search</h3>
+                    <p>Our experienced agents use advanced tools and local market knowledge to find properties that match your exact requirements.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Personalized Service</h3>
+                    <p>We provide one-on-one attention and customized solutions to ensure your real estate journey is smooth and successful.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Trusted & Secure</h3>
+                    <p>With years of experience and a proven track record, we ensure all transactions are secure, transparent, and legally compliant.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Market Insights</h3>
+                    <p>Get access to comprehensive market data and trends to make informed decisions about your property investments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="properties">
+        <div class="container">
+            <div class="properties-header">
+                <h2>Featured Properties</h2>
+                <p>Discover our handpicked selection of premium properties</p>
+            </div>
+            <div class="properties-grid">
+                <div class="property-card-large">
+                    <div class="property-image-large">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500&h=400&fit=crop&crop=center&auto=format&q=80" alt="Luxury Apartment" loading="lazy">
+                        <div class="property-badge">Featured</div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Luxury Downtown Apartment</h3>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Manhattan, NY</p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 3 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 1,800 sqft</span>
+                        </div>
+                        <div class="property-price">$2,100,000</div>
+                        <button class="btn-outline">View Details</button>
+                    </div>
+                </div>
+                <div class="property-card-large">
+                    <div class="property-image-large">
+                        <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=500&h=400&fit=crop&crop=center&auto=format&q=80" alt="Modern House" loading="lazy">
+                        <div class="property-badge">New</div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Modern Family Home</h3>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Austin, TX</p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 4 Beds</span>
+                            <span><i class="fas fa-bath"></i> 3 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 2,200 sqft</span>
+                        </div>
+                        <div class="property-price">$850,000</div>
+                        <button class="btn-outline">View Details</button>
+                    </div>
+                </div>
+                <div class="property-card-large">
+                    <div class="property-image-large">
+                        <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=500&h=400&fit=crop&crop=center&auto=format&q=80" alt="Luxury Villa" loading="lazy">
+                        <div class="property-badge">Premium</div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Oceanfront Villa</h3>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Malibu, CA</p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 5 Beds</span>
+                            <span><i class="fas fa-bath"></i> 4 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 4,500 sqft</span>
+                        </div>
+                        <div class="property-price">$4,500,000</div>
+                        <button class="btn-outline">View Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="properties-cta">
+                <button class="btn-primary">View All Properties</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Properties Sold</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">$2.5B+</div>
+                    <div class="stat-label">Total Sales Volume</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-header">
+                <h2>What Our Clients Say</h2>
+                <p>Don't just take our word for it - hear from our satisfied clients</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"KOAD Real Estate made our home buying process incredibly smooth. Their attention to detail and market knowledge helped us find the perfect home within our budget."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="John Smith" loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h4>John Smith</h4>
+                            <p>Home Buyer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Professional, reliable, and results-driven. KOAD helped us sell our property for 15% above asking price. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face" alt="Sarah Johnson" loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Property Seller</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The team's expertise in luxury properties is unmatched. They understood our needs and delivered beyond our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Michael Chen" loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Investor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Find Your Dream Home?</h2>
+                <p>Let our expert team help you navigate the real estate market and find the perfect property for your needs.</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Start Your Search</button>
+                    <button class="btn-secondary">Schedule Consultation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>KOAD Real Estate</h3>
+                    <p>Your trusted partner in finding the perfect property. We combine local expertise with cutting-edge technology to deliver exceptional results.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Buy a Home</a></li>
+                        <li><a href="#">Sell a Home</a></li>
+                        <li><a href="#">Property Management</a></li>
+                        <li><a href="#">Investment Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@koadrealestate.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Real Estate Ave, City, State 12345</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KOAD Real Estate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
